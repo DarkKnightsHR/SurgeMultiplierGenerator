@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk');
 
-const bookingsUrl = '';
+const bookingsUrl = 'https://sqs.us-west-2.amazonaws.com/373986200290/bookings-to-pricing';
 AWS.config.loadFromPath('./bookings.json');
 
 const sqs = new AWS.SQS({ apiVersion: '2012-11-05' });
