@@ -16,7 +16,7 @@ const getDrivers = () => {
       'All'
     ],
     QueueUrl: queueUrl,
-    VisibilityTimeout: 0,
+    VisibilityTimeout: 1,
     WaitTimeSeconds: 0
   };
 
